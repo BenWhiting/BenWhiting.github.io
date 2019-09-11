@@ -1,16 +1,10 @@
 {% include base_path%}
 
 
-<div class="box sidebar"> 
-  <img src="/assets/images/photo.png">
-  <ul class="social-media-list">
-    {% if site.github_username %}
-    <li>
-      {% include icon-github.html username=GitHub %}
-    </li>
-    {% endif %}
-    <li>
-        {% include icon-linkedin.html username=LinkedIn %}
-     </li>
-  </ul>
+<div class="grid-item"> 
+  <img class="photo" src="/assets/images/photo.png">
+  <div>
+      {% include icon-github.html username=GitHub %} |
+      {% include icon-linkedin.html username=LinkedIn %} 
+    </div>
 </div>
