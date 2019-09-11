@@ -13,12 +13,6 @@ url: "https://benwhiting.github.io/" # the base hostname & protocol for your sit
 your_name: Ben Whiting
 github_username:  BenWhiting
 
-# Build settings
-markdown: kramdown
-
-#Theme settings
-theme_mode: dark
-
 social:
   - service: github
     username: BenWhiting
