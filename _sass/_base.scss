@@ -38,7 +38,6 @@ ul, ol, dl, figure,
 }
 
 
-
 /**
  * Images
  */
@@ -171,6 +170,12 @@ pre {
     }
 }
 
+.header-wrapper {
+    max-height: 10px;
+    min-height: 10px;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+}
 
 
 /**
